@@ -1,0 +1,79 @@
+.settings {
+  display: block;
+  flex-direction: column;
+  background: #fff;
+  padding: 30px;
+  border-radius: 6px;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 40%;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.settings .imgContainer {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+.settings .imgContainer img {
+  height: 100px;
+}
+.settings .btnGrp {
+  display: flex;
+  flex-direction: column;
+}
+.settings button {
+  border-radius: 6px;
+  padding: 10px;
+  width: fit-content;
+  font-size: 16px;
+  margin-top: 6px;
+}
+.settings button:hover {
+  cursor: pointer;
+}
+.settings button:focus {
+  outline: none;
+}
+.settings .editBtn {
+  border: 1px solid #ef7917;
+  box-sizing: border-box;
+  color: #ef7917;
+}
+.settings .saveBtn {
+  border: 1px solid rgb(208, 156, 44);
+  color: orange;
+}
+.settings .saveBtn:hover {
+  background-color: #ef7917;
+  color: white;
+}
+
+.settings .goBackBtn {
+  border: 1px solid rgb(208, 156, 44);
+  color: orange;
+}
+.settings .goBackBtn:hover {
+  background-color: #ef7917;
+  color: white;
+}
+.settings .field {
+  margin-bottom: 10px;
+}
+.settings .field .fieldLabel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #9e9e9e;
+  padding: 5px 0;
+}
+.settings .field input {
+  margin-top: 6px;
+  width: 100%;
+  height: 35px;
+  font-size: 16px;
+  padding-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+}
